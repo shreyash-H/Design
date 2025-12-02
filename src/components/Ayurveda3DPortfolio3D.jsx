@@ -141,67 +141,68 @@ export default function Ayurveda3DPortfolio3D() {
           </div>
 
           <div style={{padding:24, borderRadius:12, background:'#fff', boxShadow:'0 8px 24px rgba(2,6,23,0.06)'}}>
-
-          <h4 style={{margin:0, fontWeight:600}}>Lifestyle & Diet</h4>
-          <p style={{marginTop:8, color:'#475569'}}>Dinacharya, ritucharya and personalized diet protocols.</p>
-        </div>
-      </section>
-
-      <section id="research" style={{marginTop:32, background:'#fff', borderRadius:12, padding:18, boxShadow:'0 8px 24px rgba(2,6,23,0.06)'}}>
-        <h3 style={{margin:0, fontWeight:600}}>Publications & Research</h3>
-        <p style={{marginTop:12, color:'#475569'}}>(List peer-reviewed articles, conference presentations or ongoing case-series here.)</p>
-      </section>
-
-      <section style={{marginTop:32, display:'grid', gridTemplateColumns:'1fr 1fr', gap:20}}>
-        <div style={{background:'#fff', borderRadius:12, padding:18, boxShadow:'0 8px 24px rgba(2,6,23,0.06)'}}>
-          <h4 style={{margin:0, fontWeight:600}}>Patient Testimonials</h4>
-          <blockquote style={{marginTop:12, borderLeft:'4px solid #fde68a', padding:12, background:'#fff7ed', borderRadius:8}}>
-            <p style={{margin:0}}>"Significant improvement in digestion and sleep after Panchakarma."</p>
-            <footer style={{marginTop:8, fontSize:12, color:'#475569'}}>— Rohit K.</footer>
-          </blockquote>
-        </div>
-
-        <div style={{background:'#fff', borderRadius:12, padding:18, boxShadow:'0 8px 24px rgba(2,6,23,0.06)'}}>
-          <h4 style={{margin:0, fontWeight:600}}>Junior Mentorship</h4>
-          <p style={{marginTop:12, color:'#475569'}}>Offerings: BAMS study tips, clinical internship guidance, Panchakarma hands-on training, practice setup advice.</p>
-          <h5 style={{marginTop:12}}>Contact</h5>
-          <ul style={{marginTop:8, color:'#059669'}}>
-            <li>Email: <a href="mailto:dr.ananya@example.com">dr.ananya@example.com</a></li>
-            <li>WhatsApp: <a href="https://wa.me/9198xxxxxxx">Message</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="contact" style={{marginTop:32, display:'grid', gridTemplateColumns:'1fr 1fr', gap:20}}>
-        <div style={{background:'#fff', borderRadius:12, padding:18, boxShadow:'0 8px 24px rgba(2,6,23,0.06)'}}>
-          <h3 style={{margin:0, fontWeight:600}}>Contact & Booking</h3>
-          <p style={{marginTop:12, color:'#475569'}}>For new patient consultations, please use the booking button or email directly.</p>
-          <div style={{marginTop:12}}>
-            <a href="mailto:dr.ananya@example.com" style={{padding:'8px 12px', background:'#059669', color:'#fff', borderRadius:8, textDecoration:'none'}}>Email</a>
-            <a href="https://wa.me/9198xxxxxxx" style={{padding:'8px 12px', marginLeft:8, borderRadius:8, border:'1px solid #e5e7eb', textDecoration:'none'}}>WhatsApp</a>
+            <h4 style={{margin:0, fontWeight:600}}>Lifestyle & Diet</h4>
+            <p style={{marginTop:8, color:'#475569'}}>Dinacharya, ritucharya and personalized diet protocols.</p>
           </div>
-        </div>
+        </section>
 
-        <form style={{background:'#fff', borderRadius:12, padding:18, boxShadow:'0 8px 24px rgba(2,6,23,0.06)'}}>
-          <h4 style={{margin:0, fontWeight:600}}>Send a message</h4>
-          <label style={{display:'block', marginTop:12, fontSize:13}}>Name</label>
-          <input style={{width:'100%', marginTop:6, padding:8, borderRadius:8, border:'1px solid #e5e7eb'}} placeholder="Your name" />
-          <label style={{display:'block', marginTop:12, fontSize:13}}>Email</label>
-          <input style={{width:'100%', marginTop:6, padding:8, borderRadius:8, border:'1px solid #e5e7eb'}} placeholder="you@example.com" />
-          <label style={{display:'block', marginTop:12, fontSize:13}}>Message</label>
-          <textarea style={{width:'100%', marginTop:6, padding:8, borderRadius:8, border:'1px solid #e5e7eb'}} placeholder="Tell me about your concerns..." rows={6} />
-          <div style={{marginTop:12}}>
-            <button type="button" style={{padding:'8px 12px', background:'#d97706', color:'#fff', borderRadius:8}}>Send</button>
+        <section id="research" style={{marginTop:32, background:'#fff', borderRadius:12, padding:18, boxShadow:'0 8px 24px rgba(2,6,23,0.06)'}}>
+          <h3 style={{margin:0, fontWeight:600}}>Publications & Research</h3>
+          <p style={{marginTop:12, color:'#475569'}}>(List peer-reviewed articles, conference presentations or ongoing case-series here.)</p>
+        </section>
+
+        <section style={{marginTop:32, display:'grid', gridTemplateColumns:'1fr 1fr', gap:20}}>
+          <div style={{background:'#fff', borderRadius:12, padding:18, boxShadow:'0 8px 24px rgba(2,6,23,0.06)'}}>
+            <h4 style={{margin:0, fontWeight:600}}>Patient Testimonials</h4>
+            <blockquote style={{marginTop:12, borderLeft:'4px solid #fde68a', padding:12, background:'#fff7ed', borderRadius:8}}>
+              <p style={{margin:0}}>"Significant improvement in digestion and sleep after Panchakarma."</p>
+              <footer style={{marginTop:8, fontSize:12, color:'#475569'}}>— Rohit K.</footer>
+            </blockquote>
           </div>
-        </form>
-      </section>
 
-      <footer style={{marginTop:32, textAlign:'center', color:'#64748b', fontSize:13}}>
-        © {new Date().getFullYear()} Dr. Ananya Sharma — Ayurvedic care & Panchakarma
-      </footer>
-    </main>
-  </div>
-)
+          <div style={{background:'#fff', borderRadius:12, padding:18, boxShadow:'0 8px 24px rgba(2,6,23,0.06)'}}>
+            <h4 style={{margin:0, fontWeight:600}}>Junior Mentorship</h4>
+            <p style={{marginTop:12, color:'#475569'}}>Offerings: BAMS study tips, clinical internship guidance, Panchakarma hands-on training, practice setup advice.</p>
+            <h5 style={{marginTop:12}}>Contact</h5>
+            <ul style={{marginTop:8, color:'#059669'}}>
+              <li>Email: <a href="mailto:dr.ananya@example.com">dr.ananya@example.com</a></li>
+              <li>WhatsApp: <a href="https://wa.me/9198xxxxxxx">Message</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="contact" style={{marginTop:32, display:'grid', gridTemplateColumns:'1fr 1fr', gap:20}}>
+          <div style={{background:'#fff', borderRadius:12, padding:18, boxShadow:'0 8px 24px rgba(2,6,23,0.06)'}}>
+            <h3 style={{margin:0, fontWeight:600}}>Contact & Booking</h3>
+            <p style={{marginTop:12, color:'#475569'}}>For new patient consultations, please use the booking button or email directly.</p>
+            <div style={{marginTop:12}}>
+              <a href="mailto:dr.ananya@example.com" style={{padding:'8px 12px', background:'#059669', color:'#fff', borderRadius:8, textDecoration:'none'}}>Email</a>
+              <a href="https://wa.me/9198xxxxxxx" style={{padding:'8px 12px', marginLeft:8, borderRadius:8, border:'1px solid #e5e7eb', textDecoration:'none'}}>WhatsApp</a>
+            </div>
+          </div>
+
+          <form style={{background:'#fff', borderRadius:12, padding:18, boxShadow:'0 8px 24px rgba(2,6,23,0.06)'}}>
+            <h4 style={{margin:0, fontWeight:600}}>Send a message</h4>
+            <label style={{display:'block', marginTop:12, fontSize:13}}>Name</label>
+            <input style={{width:'100%', marginTop:6, padding:8, borderRadius:8, border:'1px solid #e5e7eb'}} placeholder="Your name" />
+            <label style={{display:'block', marginTop:12, fontSize:13}}>Email</label>
+            <input style={{width:'100%', marginTop:6, padding:8, borderRadius:8, border:'1px solid #e5e7eb'}} placeholder="you@example.com" />
+            <label style={{display:'block', marginTop:12, fontSize:13}}>Message</label>
+            <textarea style={{width:'100%', marginTop:6, padding:8, borderRadius:8, border:'1px solid #e5e7eb'}} placeholder="Tell me about your concerns..." rows={6} />
+            <div style={{marginTop:12}}>
+              <button type="button" style={{padding:'8px 12px', background:'#d97706', color:'#fff', borderRadius:8}}>Send</button>
+            </div>
+          </form>
+        </section>
+
+        <footer style={{marginTop:32, textAlign:'center', color:'#64748b', fontSize:13}}>
+          © {new Date().getFullYear()} Dr. Ananya Sharma — Ayurvedic care & Panchakarma
+        </footer>
+      </main>
+    </div>
+  )
+}
+
 // 3D components (FloatingHerb + GLTF hotspots + procedural fallbacks)
 // Helper components below
 
@@ -373,4 +374,3 @@ function CalendarIcon() {
 // - CORS: if you host models on a separate domain, ensure CORS headers allow fetching from your site.
 // - For production robustness, wrap the GLTF load in Suspense + an ErrorBoundary and show a loading/fallback state.
 // - If you want, I can add an ErrorBoundary + graceful loader and also precompute thumbnails for the detail cards.
-
