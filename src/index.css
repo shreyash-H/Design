@@ -1,0 +1,20 @@
+/* Minimal neutral styling so the sandbox looks good without Tailwind setup */
+:root {
+  --emerald-50: #ecfdf5;
+  --amber-50: #fffbeb;
+  --amber-600: #d97706;
+  --emerald-600: #059669;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+body {
+  background: linear-gradient(180deg,var(--emerald-50), var(--amber-50) 60%, white);
+  color: #0f172a;
+}
+button, input, textarea, a { font-family: inherit; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.rounded { border-radius: 12px; }
+.shadow { box-shadow: 0 6px 20px rgba(15,23,42,0.08); }
